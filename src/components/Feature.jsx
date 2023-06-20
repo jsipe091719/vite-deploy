@@ -158,7 +158,7 @@ function Feature() {
                 <div className="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400">
                   No Name
                 </div>
-                <div className=" italic text-gray-500"></div>
+                <div className=" italic text-gray-500">Barangay Secretary</div>
               </div>
               <div className="flex-col px-6 py-2 ">
                 <div className="md:h-40 h-28 w-28 md:w-40 rounded-full overflow-hidden bg-gray-200">
@@ -168,7 +168,7 @@ function Feature() {
                 <div className="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400">
                   No Name
                 </div>
-                <div className=" italic text-gray-500"></div>
+                <div className=" italic text-gray-500">Barangay Treasurer</div>
               </div>
             </div>
             <div className="flex space-x-4  p-2 items-center justify-center md:flex-row flex-col ">
@@ -180,7 +180,7 @@ function Feature() {
                 <div className="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400">
                   No Name
                 </div>
-                <div className=" italic text-gray-500"></div>
+                <div className=" italic text-gray-500">Barangay Kagawad</div>
               </div>
               <div className="flex-col px-6 py-2 ">
                 <div className="md:h-40 h-28 w-28 md:w-40 rounded-full overflow-hidden bg-gray-200">
@@ -190,7 +190,7 @@ function Feature() {
                 <div className="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400">
                   No Name
                 </div>
-                <div className=" italic text-gray-500"></div>
+                <div className=" italic text-gray-500">Barangay Kagawad</div>
               </div>
               <div className="flex-col px-6 py-2 ">
                 <div className="md:h-40 h-28 w-28 md:w-40 rounded-full overflow-hidden bg-gray-200">
@@ -200,7 +200,7 @@ function Feature() {
                 <div className="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400">
                   No Name
                 </div>
-                <div className=" italic text-gray-500"></div>
+                <div className=" italic text-gray-500">Barangay Kagawad</div>
               </div>
             </div>
           </div>

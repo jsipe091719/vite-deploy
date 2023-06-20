@@ -9,12 +9,12 @@ import maryImg from "../assets/mary.jpg";
 import janeImg from "../assets/jane.jpg";
 import paulImg from "../assets/paul.jpg";
 import robertoImg from "../assets/roberto.jpg";
-import romeoImg from "../assets/romeo.jpg";
+import romImg from "../assets/rom.jpg";
 
 function Home() {
   const slides = [
     {
-      url: romeoImg,
+      url: romImg,
     },
     {
       url: nigeImg,
