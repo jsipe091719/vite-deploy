@@ -16,7 +16,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-screen h-[80px] z-10 fixed cursor-pointer bg-gradient-to-tr from-blue-800 via-red-800 to-yellow-500 hover:bg-gradient-to-bl ">
+    <div className="w-screen h-[80px] z-10 fixed cursor-pointer bg-gradient-to-tr from-red-900 via-red-700 to-blue-600  hover:bg-gradient-to-bl ">
       <div className="px-2 flex justify-between items-center w-full h-full">
         <div className="flex items-center">
           <a href="/" onClick={handleRefresh}>
@@ -43,11 +43,11 @@ const Navbar = () => {
               </Link>
             </li>
 
-            <li className="text-zinc-300 hover:text-black">
+            {/* <li className="text-zinc-300 hover:text-black">
               <Link to="contact" smooth={true} offset={-100} duration={500}>
                 Contact
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
 
@@ -59,7 +59,7 @@ const Navbar = () => {
           )}
         </div>
       </div>
-      <ul className={!nav ? "hidden" : "absolute bg-red-900 w-full px-8"}>
+      <ul className={!nav ? "hidden" : "absolute bg-orange-800 w-full px-8"}>
         <li className="border-b-2 border-zinc-300 w-full hover:text-yellow-500">
           <Link onClick={handleClose} to="home" smooth={true} duration={500}>
             Home
@@ -88,7 +88,7 @@ const Navbar = () => {
           </Link>
         </li>
 
-        <li className="border-b-2 border-zinc-300 w-full hover:text-yellow-500">
+        {/* <li className="border-b-2 border-zinc-300 w-full hover:text-yellow-500">
           <Link
             onClick={handleClose}
             to="contact"
@@ -98,7 +98,7 @@ const Navbar = () => {
           >
             Contact
           </Link>
-        </li>
+        </li> */}
       </ul>
     </div>
   );
