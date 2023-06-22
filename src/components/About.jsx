@@ -1,8 +1,10 @@
+import React from "react";
+
 const About = () => {
   return (
     <div
       name="about"
-      className=" flex flex-col justify-start items-center h-screen w-full mt-25"
+      className="flex flex-col justify-start items-center h-screen w-full mt-25"
     >
       <div className="flex flex-col justify-center items-center my-8 md:my-32">
         <div className="max-w-[1260px] mx-auto px-2">

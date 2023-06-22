@@ -11,6 +11,7 @@ import photoImg from "../assets/photo.png";
 
 function Feature() {
   return (
+    /* SK-SECTION */
     <div name="feature">
       <div className="flex flex-col items-center justify-center text-center">
         <div className="flex flex-col p-2 m-2 max-w-7xl">
@@ -18,8 +19,8 @@ function Feature() {
             SK Chairman and SK Councilors
           </div>
 
-          <div className="flex items-center justify-center lg:flex-row flex-col space-x-4 space-y-4 p-2">
-            <div className="flex-col px-6 py-2 w-full md:w-[50%] lg:w-1/4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-2">
+            <div className="flex-col px-6 py-2">
               <div className="h-32 w-32 border-2 border-black rounded-full overflow-hidden bg-gray-200">
                 <img src={saberonImg} alt="Romeo Saberon" className="" />
               </div>
@@ -38,7 +39,7 @@ function Feature() {
                 esse dignissimos rem facilis ipsa numquam
               </div>
             </div>
-            <div className="flex-col px-6 py-2 w-full md:w-[50%] lg:w-1/4">
+            <div className="flex-col px-6 py-2">
               <div className="h-32 w-32 border-2 border-red-700 rounded-full overflow-hidden bg-gray-200">
                 <img
                   src={nigelImg}
@@ -61,7 +62,7 @@ function Feature() {
                 esse dignissimos rem facilis ipsa numquam
               </div>
             </div>
-            <div className="flex-col px-6 py-2 w-full md:w-[50%] lg:w-1/4">
+            <div className="flex-col px-6 py-2">
               <div className="h-32 w-32 border-2 border-gray-400 rounded-full overflow-hidden bg-gray-200">
                 <img src={barucImg} alt="Michael Baruc" className="" />
               </div>
@@ -81,7 +82,7 @@ function Feature() {
                 esse dignissimos rem facilis ipsa numquam
               </div>
             </div>
-            <div className="flex-col px-6 py-2 w-full md:w-[50%] lg:w-1/4">
+            <div className="flex-col px-6 py-2">
               <div className="h-32 w-32 border-2 border-green-400 rounded-full overflow-hidden bg-gray-200">
                 <img src={bertImg} alt="Roberto Encarnacion" className="" />
               </div>
@@ -104,7 +105,7 @@ function Feature() {
           </div>
 
           <div className="flex items-center justify-center lg:flex-row flex-col space-x-4 space-y-4 p-2">
-            <div className="flex-col px-6 py-2 w-full md:w-[50%] lg:w-1/4 order-4">
+            <div className="flex-col px-6 py-2">
               <div className="h-32 w-32 border-2 border-yellow-500 rounded-full overflow-hidden bg-gray-200">
                 <img src={markImg} alt="Interia Bonaventura" className="" />
               </div>
@@ -123,7 +124,7 @@ function Feature() {
                 esse dignissimos rem facilis ipsa numquam
               </div>
             </div>
-            <div className="flex-col px-6 py-2 w-full md:w-[50%] lg:w-1/4">
+            <div className="flex-col px-6 py-2">
               <div className="h-32 w-32 border-2 border-yellow-400 rounded-full overflow-hidden bg-gray-200">
                 <img src={ansingImg} alt="Jane Ansing" className="" />
               </div>
@@ -142,7 +143,7 @@ function Feature() {
                 esse dignissimos rem facilis ipsa numquam
               </div>
             </div>
-            <div className="flex-col px-6 py-2 w-full md:w-[50%] lg:w-1/4">
+            <div className="flex-col px-6 py-2">
               <div className="h-32 w-32 border-2 border-purple-400 rounded-full overflow-hidden bg-gray-200">
                 <img src={magtubaImg} alt="Mary Claire Magtuba" className="" />
               </div>
@@ -161,7 +162,7 @@ function Feature() {
                 esse dignissimos rem facilis ipsa numquam
               </div>
             </div>
-            <div className="flex-col px-6 py-2 w-full md:w-[50%] lg:w-1/4">
+            <div className="flex-col px-6 py-2">
               <div className="h-32 w-32 border-2 border-pink-700 rounded-full overflow-hidden bg-gray-200">
                 <img src={justineImg} alt="Paul Justine Bazan" className="" />
               </div>
@@ -183,6 +184,8 @@ function Feature() {
           </div>
         </div>
       </div>
+
+      {/* Barangay Section */}
       <div className="flex items-center justify-center text-center">
         <div className="flex flex-col p-2 m-2 ">
           <div className="text-3xl font-medium">
@@ -243,7 +246,7 @@ function Feature() {
                 </div>
 
                 <div className="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400">
-                  No Name
+                  Arnel Lelis
                 </div>
                 <div className=" italic text-gray-500">Barangay Kagawad</div>
               </div>
