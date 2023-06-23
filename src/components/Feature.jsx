@@ -245,10 +245,11 @@ function Feature() {
                 <div className="md:h-40 h-28 w-28 md:w-40 rounded-full overflow-hidden bg-gray-200">
                   <img src={arnelImg} alt="" className="" />
                 </div>
-
-                <div className="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400">
-                  Arnel Lelis
-                </div>
+                <a href="https://www.facebook.com/lelisnel">
+                  <div className="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400">
+                    Arnel Lelis
+                  </div>
+                </a>
                 <div className=" italic text-gray-500">Barangay Kagawad</div>
               </div>
               <div className="flex-col px-6 py-2 ">
