@@ -8,6 +8,7 @@ import justineImg from "../assets/justine.jpg";
 import bertImg from "../assets/bert.jpg";
 import barucImg from "../assets/baruc.jpg";
 import photoImg from "../assets/photo.png";
+import arnelImg from "../assets/arnel.jpg";
 
 function Feature() {
   return (
@@ -242,7 +243,7 @@ function Feature() {
               </div>
               <div className="flex-col px-6 py-2 ">
                 <div className="md:h-40 h-28 w-28 md:w-40 rounded-full overflow-hidden bg-gray-200">
-                  <img src={photoImg} alt="" className="" />
+                  <img src={arnelImg} alt="" className="" />
                 </div>
 
                 <div className="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400">
